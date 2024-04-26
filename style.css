@@ -6,25 +6,21 @@
   color: #212427;
 }
 
-/* nav {
-  position: sticky;
-  top: -1px;
-} */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 
 header {
-  margin: 0 auto;
   background-color: #eeeeee;
   padding: 35px;
-  width: 90%;
   text-align: center;
   box-shadow: #eeeeee 0px 0px 7px;
 }
 
 ul {
-  margin: 0 auto;
   background-color: #fa7d09;
   border-radius: 0px 0px 10px 10px;
-  width: 90%;
   box-shadow: #fa7d09 0px 0px 7px;
   letter-spacing: 0.3px;
   padding: 30px;
@@ -42,39 +38,56 @@ li > a {
   text-decoration: none;
 }
 
-table {
-  width: 90%;
+.so,
+.gaming {
+  width: 100%;
   height: 200px;
-  margin: 0 auto;
   margin-top: 55px;
   border-collapse: separate;
   border-spacing: 20px;
+  background-color: #eeeeee;
+  border-radius: 10px;
 }
 
-th {
+.soTh,
+.gamingTh {
   font-size: 24px;
   text-align: left;
 }
 
-td {
+.soTd,
+.gamingTd {
   background-color: #fa7d09;
   border-radius: 10px;
   box-shadow: #fa7d09 0px 0px 7px;
-  padding: 20px;
+  padding: 30px 15px;
 }
 
 td > p {
   padding-top: 10px;
 }
 
-td > img {
+td > svg {
   float: inline-start;
 }
 
-/* form {
-  text-align: center;
-  margin: 55px auto;
-} */
+#kontakti > h2 {
+  padding: 15px 20px 0px 10px;
+  color: #eeeeee;
+}
+
+#kontakti {
+  margin-top: 55px;
+  background-color: #212427;
+  box-shadow: #212427 0px 0px 7px;
+  border-radius: 10px;
+}
+
+#kontakti > table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 25px;
+}
 
 input {
   width: 350px;
@@ -104,28 +117,6 @@ iframe {
   border-radius: 10px;
 }
 
-#kontakti {
-  width: 90%;
-  margin: 0 auto;
-}
-
-#kontakti > h2 {
-  margin-top: 55px;
-  padding-top: 10px;
-}
-
-.kontakti1 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 10px auto;
-  background-color: #212427;
-  padding: 50px;
-  border-radius: 10px;
-  box-shadow: #212427 0px 0px 7px;
-}
-
 #submitBtn {
   color: #a1a1a1;
   opacity: 0.5;
@@ -140,12 +131,10 @@ iframe {
 }
 
 footer {
-  width: 90%;
   margin: 0 auto;
   margin-top: 65px;
   background-color: #eeeeee;
   padding: 35px;
-  width: 90%;
   text-align: center;
   box-shadow: #eeeeee 0px 0px 7px;
   border-radius: 10px 10px 0px 0px;
