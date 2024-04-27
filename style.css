@@ -15,7 +15,8 @@ header {
   background-color: #eeeeee;
   padding: 35px;
   text-align: center;
-  box-shadow: #eeeeee 0px 0px 7px;
+  box-shadow: #ccc 0px 0px 7px;
+  border: 2px solid #ccc;
 }
 
 ul {
@@ -47,6 +48,8 @@ li > a {
   border-spacing: 20px;
   background-color: #eeeeee;
   border-radius: 10px;
+  box-shadow: #ccc 0px 0px 7px;
+  border: 2px solid #ccc;
 }
 
 .soTh,
@@ -72,15 +75,16 @@ td > svg {
 }
 
 #kontakti > h2 {
-  padding: 15px 20px 0px 10px;
-  color: #eeeeee;
+  padding: 15px 20px 0px 20px;
+  color: #212427;
 }
 
 #kontakti {
   margin-top: 55px;
-  background-color: #212427;
-  box-shadow: #212427 0px 0px 7px;
+  background-color: #eeeeee;
+  box-shadow: #ccc 0px 0px 7px;
   border-radius: 10px;
+  border: 2px solid #ccc;
 }
 
 #kontakti > table {
@@ -101,32 +105,29 @@ textarea {
 
 input,
 textarea {
-  background-color: #eeeeee;
+  /* background-color: #fbf9f1; */
   border-radius: 10px;
   margin: 5px;
-  border: none;
+  border: 2px solid #ccc;
   padding: 5px;
 }
 
 input::placeholder,
-textarea::placeholder {
-  color: #a1a1a1;
+textarea::placeholder,
+#submitBtn {
+  color: #ccc;
 }
 
 iframe {
   border-radius: 10px;
-}
-
-#submitBtn {
-  color: #a1a1a1;
-  opacity: 0.5;
+  border: 2px solid #ccc;
 }
 
 #submitBtn:hover {
   background-color: #fa7d09;
   color: #eeeeee;
   opacity: 1;
-
+  border: none;
   transition: all ease-in-out 0.2s;
 }
 
@@ -136,6 +137,7 @@ footer {
   background-color: #eeeeee;
   padding: 35px;
   text-align: center;
-  box-shadow: #eeeeee 0px 0px 7px;
+  box-shadow: #ccc 0px 0px 7px;
+  border: 2px solid #ccc;
   border-radius: 10px 10px 0px 0px;
 }
