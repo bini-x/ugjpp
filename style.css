@@ -22,7 +22,6 @@ ul {
   background-color: #fa7d09;
   border-radius: 0px 0px 10px 10px;
   box-shadow: #fa7d09 0px 0px 7px;
-  letter-spacing: 0.3px;
   padding: 30px;
   text-align: center;
 }
@@ -33,6 +32,7 @@ li {
   font-weight: 600;
   padding: 100px;
   margin: 0 auto;
+  font-size: 18px;
 }
 
 li > a {
