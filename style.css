@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Ubuntu;
+  font-family: Helvetica;
   color: #212427;
 }
 
@@ -72,6 +72,7 @@ td > p {
 
 td > svg {
   float: inline-start;
+  margin-right: 10px;
 }
 
 #kontakti > h2 {
