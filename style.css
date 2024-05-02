@@ -6,6 +6,92 @@
   color: #212427;
 }
 
+.darkModeBtn {
+	position: sticky;
+	top: 0;
+}
+
+.darkMode {
+	background-color: #0C0C0C;
+	* {
+	color: #eeeeee;
+}
+
+.darkModeBtn {
+	background-color: #212427;
+	color: #eeeeee;
+}
+
+header {
+  background-color: #212427;
+  padding: 35px;
+  text-align: center;
+  box-shadow: none;
+}
+
+ul {
+	background-color: #9B3922;
+	box-shadow: #9B3922 0px 0px 7px;
+}
+	
+.so,
+.gaming {
+  width: 100%;
+  height: 200px;
+  margin-top: 55px;
+  border-collapse: separate;
+  border-spacing: 20px;
+  border-radius: 10px;
+  border: 2px solid #212427;
+  box-shadow: none;
+  background-color: #212427;
+
+}
+
+.soTh,
+.gamingTh {
+  font-size: 24px;
+  text-align: left;
+}
+
+.soTd,
+.gamingTd {
+  border-radius: 10px;
+  box-shadow: #9B3922 0px 0px 7px;
+  padding: 30px 15px;
+  background-color: #9B3922;
+}
+#kontakti {
+  margin-top: 55px;
+  background-color: #212427;
+  box-shadow: none;
+  border-radius: 10px;
+  border: 2px solid #212427;
+}
+
+input, textarea {
+	background-color: #212427;
+}
+
+#submitBtn:hover {
+  background-color: #9B3922;
+
+  opacity: 1;
+  border: none;
+  transition: all ease-in-out 0.2s;
+}
+
+footer {
+  margin: 0 auto;
+  margin-top: 65px;
+  background-color: #212427;
+  padding: 35px;
+  text-align: center;
+  box-shadow: #212427 0px 0px 7px;
+  border-radius: 10px 10px 0px 0px;
+}
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -19,9 +105,9 @@ header {
 }
 
 ul {
-  background-color: #fa7d09;
+  background-color: #F2613F;
   border-radius: 0px 0px 10px 10px;
-  box-shadow: #fa7d09 0px 0px 7px;
+  box-shadow: #F2613F 0px 0px 7px;
   padding: 30px;
   text-align: center;
 }
@@ -60,9 +146,9 @@ li > a {
 
 .soTd,
 .gamingTd {
-  background-color: #fa7d09;
+  background-color: #F2613F;
   border-radius: 10px;
-  box-shadow: #fa7d09 0px 0px 7px;
+  box-shadow: #F2613F 0px 0px 7px;
   padding: 30px 15px;
 }
 
@@ -77,7 +163,7 @@ td > svg {
 
 #kontakti > h2 {
   padding: 15px 20px 0px 20px;
-  color: #212427;
+
 }
 
 #kontakti {
