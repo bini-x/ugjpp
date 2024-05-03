@@ -1,32 +1,32 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Helvetica;
-  color: #212427;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  	font-family: Helvetica;
+  	color: #212427;
 }
 
 .darkModeBtn {
-	position: sticky;
+	position: absolute;
 	top: 0;
 }
 
 .darkMode {
 	background-color: #0C0C0C;
 	* {
-	color: #eeeeee;
+	color: #EFECEC;
 }
 
 .darkModeBtn {
 	background-color: #212427;
-	color: #eeeeee;
+	color: #EFECEC;
 }
 
 header {
-  background-color: #212427;
-  padding: 35px;
-  text-align: center;
-  box-shadow: none;
+  	background-color: #212427;
+  	padding: 35px;
+  	text-align: center;
+  	box-shadow: none;
 }
 
 ul {
@@ -36,37 +36,37 @@ ul {
 	
 .so,
 .gaming {
-  width: 100%;
-  height: 200px;
-  margin-top: 55px;
-  border-collapse: separate;
-  border-spacing: 20px;
-  border-radius: 10px;
-  border: 2px solid #212427;
-  box-shadow: none;
-  background-color: #212427;
+  	width: 100%;
+  	height: 200px;
+  	margin-top: 55px;
+  	border-collapse: separate;
+  	border-spacing: 20px;
+  	border-radius: 10px;
+  	border: 2px solid #212427;
+  	box-shadow: none;
+  	background-color: #212427;
 
 }
 
 .soTh,
 .gamingTh {
-  font-size: 24px;
-  text-align: left;
+  	font-size: 24px;
+  	text-align: left;
 }
 
 .soTd,
 .gamingTd {
-  border-radius: 10px;
-  box-shadow: #9B3922 0px 0px 7px;
-  padding: 30px 15px;
-  background-color: #9B3922;
+  	border-radius: 10px;
+  	box-shadow: #9B3922 0px 0px 7px;
+  	padding: 30px 15px;
+  	background-color: #9B3922;
 }
 #kontakti {
-  margin-top: 55px;
-  background-color: #212427;
-  box-shadow: none;
-  border-radius: 10px;
-  border: 2px solid #212427;
+  	margin-top: 55px;
+  	background-color: #212427;
+  	box-shadow: none;
+  	border-radius: 10px;
+  	border: 2px solid #212427;
 }
 
 input, textarea {
@@ -74,155 +74,152 @@ input, textarea {
 }
 
 #submitBtn:hover {
-  background-color: #9B3922;
-
-  opacity: 1;
-  border: none;
-  transition: all ease-in-out 0.2s;
+  	background-color: #9B3922;
+  	opacity: 1;
+  	border: none;
+  	transition: all ease-in-out 0.2s;
 }
 
 footer {
-  margin: 0 auto;
-  margin-top: 65px;
-  background-color: #212427;
-  padding: 35px;
-  text-align: center;
-  box-shadow: #212427 0px 0px 7px;
-  border-radius: 10px 10px 0px 0px;
+  	margin: 0 auto;
+  	margin-top: 65px;
+  	background-color: #212427;
+  	padding: 35px;
+  	text-align: center;
+  	box-shadow: #212427 0px 0px 7px;
+  	border-radius: 10px 10px 0px 0px;
 }
 }
 
 .container {
-  width: 90%;
-  margin: 0 auto;
+  	width: 90%;
+  	margin: 0 auto;
 }
 
 header {
-  background-color: #eeeeee;
-  padding: 35px;
-  text-align: center;
-  box-shadow: #eeeeee 0px 0px 7px;
+  	background-color: #EFECEC;
+  	padding: 35px;
+  	text-align: center;
+  	box-shadow: #EFECEC 0px 0px 7px;
 }
 
 ul {
-  background-color: #F2613F;
-  border-radius: 0px 0px 10px 10px;
-  box-shadow: #F2613F 0px 0px 7px;
-  padding: 30px;
-  text-align: center;
+  	background-color: #F2613F;
+  	border-radius: 0px 0px 10px 10px;
+	box-shadow: #F2613F 0px 0px 7px;
+	padding: 30px;
+  	text-align: center;
 }
 
 li {
-  display: inline;
-  list-style-type: none;
-  font-weight: 600;
-  padding: 100px;
-  margin: 0 auto;
-  font-size: 18px;
+  	display: inline;
+  	list-style-type: none;
+  	margin: 0 auto;
+  	padding: 5%;
+	font-size: 16px;
 }
 
 li > a {
-  text-decoration: none;
+  	text-decoration: none;
 }
 
 .so,
 .gaming {
-  width: 100%;
-  height: 200px;
-  margin-top: 55px;
-  border-collapse: separate;
-  border-spacing: 20px;
-  background-color: #eeeeee;
-  border-radius: 10px;
-  box-shadow: #ccc 0px 0px 7px;
-  border: 2px solid #ccc;
+	width: 100%;
+  	margin: 55px auto;
+  	border-collapse: separate;
+  	border-spacing: 20px;
+  	background-color: #EFECEC;
+  	border-radius: 10px;
+  	box-shadow: #ccc 0px 0px 7px;
+  	border: 2px solid #ccc;
 }
 
 .soTh,
 .gamingTh {
-  font-size: 24px;
-  text-align: left;
+	font-size: 24px;
+	text-align: left;
 }
 
 .soTd,
 .gamingTd {
-  background-color: #F2613F;
-  border-radius: 10px;
-  box-shadow: #F2613F 0px 0px 7px;
-  padding: 30px 15px;
+  	background-color: #F2613F;
+  	border-radius: 10px;
+  	box-shadow: #F2613F 0px 0px 7px;
+  	padding: 30px 15px;
 }
 
 td > p {
-  padding-top: 10px;
+  	padding-top: 10px;
 }
 
 td > svg {
-  float: inline-start;
-  margin-right: 10px;
+  	float: inline-start;
+  	margin-right: 10px;
 }
 
 #kontakti > h2 {
-  padding: 15px 20px 0px 20px;
-
+	padding: 15px 20px 0px 20px;
 }
 
 #kontakti {
-  margin-top: 55px;
-  background-color: #eeeeee;
-  box-shadow: #ccc 0px 0px 7px;
-  border-radius: 10px;
-  border: 2px solid #ccc;
+  	margin-top: 55px;
+  	background-color: #EFECEC;
+  	box-shadow: #ccc 0px 0px 7px;
+  	border-radius: 10px;
+  	border: 2px solid #ccc;
 }
 
 #kontakti > table {
-  margin: 0 auto;
-  border-collapse: separate;
-  border-spacing: 25px;
+  	margin: 0 auto;
+  	border-collapse: separate;
+  	border-spacing: 25px;
 }
 
 input {
-  width: 350px;
-  height: 40px;
+	width: 100%;
+  	height: 40px;
 }
 
 textarea {
-  width: 350px;
-  height: 300px;
+	width: 100%;
+  	height: 300px;
 }
+
 
 input,
 textarea {
-  border-radius: 10px;
-  margin: 5px;
-  border: 2px solid #ccc;
-  padding: 5px;
+  	border-radius: 10px;
+  	margin: 5px;
+  	border: 2px solid #ccc;
+  	padding: 5px;
 }
 
 input::placeholder,
 textarea::placeholder,
 #submitBtn {
-  color: #ccc;
+  	color: #ccc;
 }
 
 iframe {
-  border-radius: 10px;
-  border: 2px solid #ccc;
+  	border-radius: 10px;
+  	border: 2px solid #ccc;
 }
 
 #submitBtn:hover {
-  background-color: #F2613F;
-  color: #eeeeee;
-  opacity: 1;
-  border: none;
-  transition: all ease-in-out 0.2s;
+  	background-color: #F2613F;
+  	color: #EFECEC;
+  	opacity: 1;
+  	border: none;
+  	transition: all ease-in-out 0.2s;
 }
 
 footer {
-  margin: 0 auto;
-  margin-top: 65px;
-  background-color: #eeeeee;
-  padding: 35px;
-  text-align: center;
-  box-shadow: #eeeeee 0px 0px 7px;
-  border-radius: 10px 10px 0px 0px;
+  	margin: 0 auto;
+  	margin-top: 65px;
+  	background-color: #EFECEC;
+  	padding: 35px;
+  	text-align: center;
+  	box-shadow: #eeeeee 0px 0px 7px;
+  	border-radius: 10px 10px 0px 0px;
 }
