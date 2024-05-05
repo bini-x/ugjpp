@@ -9,6 +9,8 @@
 .darkModeBtn {
 	position: absolute;
 	top: 0;
+	background-color: transparent;
+	border: none;
 }
 
 .darkMode {
@@ -18,8 +20,8 @@
 }
 
 .darkModeBtn {
-	background-color: #212427;
 	color: #EFECEC;
+	background-color: transparent;
 }
 
 header {
@@ -116,7 +118,7 @@ li {
   	list-style-type: none;
   	margin: 0 auto;
   	padding: 5%;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 li > a {
