@@ -6,12 +6,11 @@
   	color: #212427;
 }
 
-.darkModeBtn {
-	position: absolute;
-	top: 0;
-	background-color: transparent;
-	border: none;
+.image {
+	float: right;
 }
+
+
 
 .darkMode {
 	background-color: #0C0C0C;
@@ -103,6 +102,7 @@ header {
   	padding: 35px;
   	text-align: center;
   	box-shadow: #EFECEC 0px 0px 7px;
+	font-size: 1.2vw;
 }
 
 ul {
@@ -118,7 +118,8 @@ li {
   	list-style-type: none;
   	margin: 0 auto;
   	padding: 5%;
-	font-size: 18px;
+	font-size: 1vw;
+	font-weight: bold;
 }
 
 li > a {
@@ -139,8 +140,19 @@ li > a {
 
 .soTh,
 .gamingTh {
-	font-size: 24px;
+	font-size: 1.5vw;
 	text-align: left;
+}
+
+.infoTd {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.infoTd > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .soTd,
@@ -149,19 +161,14 @@ li > a {
   	border-radius: 10px;
   	box-shadow: #F2613F 0px 0px 7px;
   	padding: 30px 15px;
+	font-size: 1vw;
 }
 
-td > p {
-  	padding-top: 10px;
-}
 
-td > svg {
-  	float: inline-start;
-  	margin-right: 10px;
-}
 
 #kontakti > h2 {
 	padding: 15px 20px 0px 20px;
+	font-size: 1.5vw;
 }
 
 #kontakti {
@@ -224,4 +231,5 @@ footer {
   	text-align: center;
   	box-shadow: #eeeeee 0px 0px 7px;
   	border-radius: 10px 10px 0px 0px;
+	font-size: 1vw;
 }
