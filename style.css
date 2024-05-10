@@ -7,89 +7,10 @@
 }
 
 .image {
-	float: right;
-}
-
-
-
-.darkMode {
-	background-color: #0C0C0C;
-	* {
-	color: #EFECEC;
-}
-
-.darkModeBtn {
-	color: #EFECEC;
-	background-color: transparent;
-}
-
-header {
-  	background-color: #212427;
-  	padding: 35px;
-  	text-align: center;
-  	box-shadow: none;
-}
-
-ul {
-	background-color: #9B3922;
-	box-shadow: #9B3922 0px 0px 7px;
-}
-	
-.so,
-.gaming {
-  	width: 100%;
-  	height: 200px;
-  	margin-top: 55px;
-  	border-collapse: separate;
-  	border-spacing: 20px;
-  	border-radius: 10px;
-  	border: 2px solid #212427;
-  	box-shadow: none;
-  	background-color: #212427;
-
-}
-
-.soTh,
-.gamingTh {
-  	font-size: 24px;
-  	text-align: left;
-}
-
-.soTd,
-.gamingTd {
-  	border-radius: 10px;
-  	box-shadow: #9B3922 0px 0px 7px;
-  	padding: 30px 15px;
-  	background-color: #9B3922;
-}
-#kontakti {
-  	margin-top: 55px;
-  	background-color: #212427;
-  	box-shadow: none;
-  	border-radius: 10px;
-  	border: 2px solid #212427;
-}
-
-input, textarea {
-	background-color: #212427;
-}
-
-#submitBtn:hover {
-  	background-color: #9B3922;
-  	opacity: 1;
-  	border: none;
-  	transition: all ease-in-out 0.2s;
-}
-
-footer {
-  	margin: 0 auto;
-  	margin-top: 65px;
-  	background-color: #212427;
-  	padding: 35px;
-  	text-align: center;
-  	box-shadow: #212427 0px 0px 7px;
-  	border-radius: 10px 10px 0px 0px;
-}
+	position: relative;
+	width: clamp(30px, 2vw, 40px);
+	height: clamp(30px, 2vw, 40px);
+	cursor: pointer;
 }
 
 .container {
@@ -98,11 +19,17 @@ footer {
 }
 
 header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding-top: 35px;
+	padding-bottom: 10px;
   	background-color: #EFECEC;
-  	padding: 35px;
   	text-align: center;
   	box-shadow: #EFECEC 0px 0px 7px;
-	font-size: 1.2vw;
+	font-size: clamp(12px, 1vw, 24px);
 }
 
 ul {
@@ -118,7 +45,7 @@ li {
   	list-style-type: none;
   	margin: 0 auto;
   	padding: 5%;
-	font-size: 1vw;
+	font-size: clamp(12px, 1vw, 18px);
 	font-weight: bold;
 }
 
@@ -140,13 +67,14 @@ li > a {
 
 .soTh,
 .gamingTh {
-	font-size: 1.5vw;
+	font-size: clamp(12px, 1.5vw, 24px);
 	text-align: left;
 }
 
 .infoTd {
 	display: flex;
 	justify-content: flex-start;
+	gap: 5px;
 }
 
 .infoTd > div {
@@ -155,20 +83,24 @@ li > a {
 	justify-content: space-evenly;
 }
 
+.infoTd > img {
+	width: clamp(30px, 15%, 150px);
+	height: clamp(30px, 15%, 150px);
+}
+
 .soTd,
 .gamingTd {
   	background-color: #F2613F;
   	border-radius: 10px;
   	box-shadow: #F2613F 0px 0px 7px;
   	padding: 30px 15px;
-	font-size: 1vw;
+	font-size: clamp(9px, 1vw, 16px);
 }
-
 
 
 #kontakti > h2 {
 	padding: 15px 20px 0px 20px;
-	font-size: 1.5vw;
+	font-size: clamp(12px, 1.5vw, 24px);
 }
 
 #kontakti {
@@ -231,5 +163,69 @@ footer {
   	text-align: center;
   	box-shadow: #eeeeee 0px 0px 7px;
   	border-radius: 10px 10px 0px 0px;
-	font-size: 1vw;
+	font-size: clamp(10px, 1vw, 14px);
 }
+
+.darkMode {
+	background-color: #0C0C0C;
+	* {
+	color: #EFECEC;
+}
+
+.darkModeBtn {
+	color: #EFECEC;
+	background-color: transparent;
+}
+
+header {
+  	background-color: #212427;
+  	text-align: center;
+  	box-shadow: none;
+}
+
+ul {
+	background-color: #9B3922;
+	box-shadow: #9B3922 0px 0px 7px;
+}
+	
+.so,
+.gaming {
+  	border: 2px solid #212427;
+  	box-shadow: none;
+  	background-color: #212427;
+}
+
+.soTd,
+.gamingTd {
+  	box-shadow: #9B3922 0px 0px 7px;
+  	background-color: #9B3922;
+}
+#kontakti {
+  	margin-top: 55px;
+  	background-color: #212427;
+  	box-shadow: none;
+  	border-radius: 10px;
+  	border: 2px solid #212427;
+}
+
+input, textarea {
+	background-color: #212427;
+}
+
+#submitBtn:hover {
+  	background-color: #9B3922;
+  	opacity: 1;
+  	border: none;
+  	transition: all ease-in-out 0.2s;
+}
+
+footer {
+  	margin: 0 auto;
+  	margin-top: 65px;
+  	background-color: #212427;
+  	padding: 35px;
+  	text-align: center;
+  	box-shadow: #212427 0px 0px 7px;
+  	border-radius: 10px 10px 0px 0px;
+}
+
