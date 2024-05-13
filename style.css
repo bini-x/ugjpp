@@ -6,12 +6,6 @@
   	color: #212427;
 }
 
-.image {
-	width: clamp(30px, 2vw, 40px);
-	height: clamp(30px, 2vw, 40px);
-	cursor: pointer;
-}
-
 .container {
   	width: 90%;
   	margin: 0 auto;
@@ -20,14 +14,20 @@
 header {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	flex-direction: column;
 	gap: 10px;
 	padding-top: 35px;
-	padding-bottom: 10px;
   	background-color: #EFECEC;
-  	text-align: center;
   	box-shadow: #EFECEC 0px 0px 7px;
 	font-size: clamp(12px, 1vw, 24px);
+	text-align: center;
+}
+
+.image {
+	width: clamp(30px, 2vw, 40px);
+	height: clamp(30px, 2vw, 40px);
+	cursor: pointer;
+	position: relative;
 }
 
 ul {
@@ -43,7 +43,7 @@ li {
   	list-style-type: none;
   	margin: 0 auto;
   	padding: 5%;
-	font-size: clamp(10px, 1vw, 18px);
+	font-size: clamp(11px, 1vw, 18px);
 	font-weight: bold;
 }
 
@@ -82,8 +82,8 @@ li > a {
 }
 
 .infoTd > img {
-	width: clamp(30px, 15%, 150px);
-	height: clamp(30px, 15%, 150px);
+	width: clamp(35px, 15%, 100px);
+	height: clamp(35px, 15%, 100px);
 }
 
 .soTd,
@@ -92,7 +92,7 @@ li > a {
   	border-radius: 10px;
   	box-shadow: #F2613F 0px 0px 7px;
   	padding: 30px 15px;
-	font-size: clamp(7px, 1vw, 16px);
+	font-size: clamp(9px, 1vw, 16px);
 }
 
 
@@ -184,6 +184,10 @@ header {
 ul {
 	background-color: #9B3922;
 	box-shadow: #9B3922 0px 0px 7px;
+}
+
+video {
+	box-shadow: none !important;
 }
 	
 .so,
