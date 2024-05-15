@@ -141,7 +141,7 @@ iframe {
 footer {
   	margin: 55px auto 0;
   	background-color: #EFECEC;
-	padding: 35px;
+	padding: 15px 0 10px;
   	text-align: center;
   	border-radius: 10px 10px 0px 0px;
 	font-size: clamp(10px, 1vw, 14px);
@@ -160,7 +160,6 @@ footer {
 
 header {
   	background-color: #212427;
-  	text-align: center;
 }
 
 ul {
@@ -178,9 +177,7 @@ ul {
   	background-color: #9B3922;
 }
 #kontakti {
-  	margin-top: 55px;
   	background-color: #212427;
-  	border-radius: 10px;
   	border: 2px solid #212427;
 }
 
@@ -196,11 +193,6 @@ input, textarea {
 }
 
 footer {
-  	margin: 55px auto 0;
   	background-color: #212427;
-  	padding: 35px;
-  	text-align: center;
-	line-height: 150%;
-  	border-radius: 10px 10px 0px 0px;
 }
 
