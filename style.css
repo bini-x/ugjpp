@@ -18,12 +18,16 @@ header {
 	text-align: center;
 }
 
+svg {
+	margin: 0 auto;
+	display: block;
+}
+
 .image {
-	margin: 5px auto;
+	margin: 10px auto;
 	width: clamp(30px, 2vw, 40px);
 	height: clamp(30px, 2vw, 40px);
 	cursor: pointer;
-	position: relative;
 }
 
 ul {
