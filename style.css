@@ -18,13 +18,9 @@ header {
 	text-align: center;
 }
 
-svg {
-	margin: 0 auto;
-	display: block;
-}
 
 .image {
-	margin: 10px auto;
+	position: relative;
 	width: clamp(30px, 2vw, 40px);
 	height: clamp(30px, 2vw, 40px);
 	cursor: pointer;
@@ -48,6 +44,11 @@ li {
 
 li > a {
   	text-decoration: none;
+}
+
+svg {
+	margin: 0 auto;
+	display: block;
 }
 
 .so,
